@@ -4,12 +4,15 @@
 // ///////////////////////////////////////////////////////////////////////////////////////
 // ***************************************************************************************
 
+
+
 // TASK 1
 // var firstName = prompt("Enter Your First Name")
 // var lastName = prompt("Enter Your Last Name");
 // var fullName = firstName + " " + lastName;
 
 // document.write("Welcome " + fullName);
+
 
 
 // TASK 2
@@ -20,12 +23,14 @@
 // document.write("Length Of String: " + mob1)
 
 
+
 // TASK 3
 // var name = "Pakistani";
 // var name1 = name.indexOf("n");
 
 // document.write("String: " +  name + "<br>")
 // document.write("Index Of n: " + name1)
+
 
 
 // TASK 4
@@ -36,12 +41,14 @@
 // document.write("Index Of l: " + name1)
 
 
+
 // TASK 5
 // var name = "Pakistani";
 // var name1 = name.charAt(5);
 
 // document.write("String: " +  name + "<br>")
 // document.write("Character at index 5: " + name1)
+
 
 
 // TASK 6
@@ -60,11 +67,13 @@
 // document.write("After Replacement: " + firstLetter  );
 
 
+
 // TASK 8
 // var message = "Ali and Sami are best friends. They play cricket and football together.";
 // var message1 = message.replace(/and/g , "&");
 
 // document.write(message1);
+
 
 
 // TASK 9
@@ -78,12 +87,14 @@
 // document.write("Type: "+ typeof age1  + "<br>");
 
 
+
 // TASK 10
 // var program = prompt("Enter any word");
 // document.write("User Input: " + program + "<br>");
 
 // var program1 = program.toLocaleUpperCase();
 // document.write("Upper Case: " + program1 + "<br>");
+
 
 
 // TASK 11
@@ -95,6 +106,7 @@
 // document.write("Upper Case: " + firstLetter + otherLetters);
 
 
+
 // TASK 12
 // var num = 35.36;
 // var num1 = num.toString();
@@ -102,6 +114,7 @@
 
 // document.write( "Number: " +  num1 + "<br>")
 // document.write("Result: " + num2 + "<br>")
+
 
 
 // TASK 13
@@ -118,6 +131,7 @@
 // }
 
 
+
 // TASK 14 
 // var A = ["cake","apple pie","cookie","chips","patties"];
 // var search=prompt("Welcome to ABC Bakery.What do you want to order Sir/Ma'm");
@@ -132,6 +146,7 @@
 // }
 
 
+
 // TASK 15 
 // var password = prompt("Enter Your Password");
 // var alphabets = "abcdefghijklmnopqrstuvwxyz"; 
@@ -143,6 +158,7 @@
 // }
 
 
+
 // TASK 16
 // var university = "University of Karachi"
 // for(i = 0; i < university.length; i++){
@@ -150,11 +166,13 @@
 // }
 
 
+
 // TASK 17
 // var name = prompt("Enter Any Name");
 // var lastIndex = name.length - 1;
 // var lastLetter = name.charAt(lastIndex);
 // console.log(lastLetter)
+
 
 
 // TASK 18
@@ -174,6 +192,9 @@
 // ///////////////////////////////////////////////////////////////////////////////////////
 // ***************************************************************************************
 
+
+
+
 // TASK 1 
 // var num = +prompt("Enter a positive number");
 // var round = Math.round(num);
@@ -184,6 +205,7 @@
 // document.write("Round of value: " + round + "<br>");
 // document.write("Ceil Value: " + ceil + "<br>");
 // document.write("Floor Value: " + floor + "<br>");
+
 
 
 // TASK 2 
@@ -198,11 +220,13 @@
 // document.write("Floor Value: " + floor + "<br>");
 
 
+
 // TASK 3 
 // var num = +prompt("Enter a value");
 // var num1 = Math.abs(num);
 
 // document.write("The Absolute value of " + num + " is " + num1)
+
 
 
 // TASK 4 
@@ -221,9 +245,11 @@
 // }
 
 
+
 // TASK 6
 // var num = Math.floor(Math.random() * 100) + 1;
 // document.write("Random Number Between 1 and 100: " + num)
+
 
 
 // TASK 7 
@@ -236,6 +262,7 @@
 // document.write("Weight In Round: " + round + "Kgs <br>");
 // document.write("Weight In Ceil: " + ceil + "Kgs <br>");
 // document.write("Weight In Floor: " + floor + "Kgs <br>");
+
 
 
 // TASK 8 
@@ -257,6 +284,9 @@
 // ///////////////////////////////////////////////////////////////////////////////////////
 // ***************************************************************************************
 
+
+
+
 // TASK 1 
 // var date = new Date();
 // document.write(date)
@@ -270,12 +300,14 @@
 // alert("Current Month: " + currMonth)
 
 
+
 // TASK 3
 // var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 // var date = new Date();
 // var currDay = dayNames[date.getDay()];
 
 // alert("Today is " + currDay)
+
 
 
 // TASK 4
@@ -287,6 +319,7 @@
 // }else{
 //     document.write("It is Working Day")
 // }
+
 
 
 // TASK 5 
@@ -309,6 +342,7 @@
 // document.write("Elapesd minutes since January 1, 1970: " + mint + "<br>")
 
 
+
 // TASK 7
 // var date = new Date();
 // var hour = date.getTime();
@@ -318,6 +352,7 @@
 // }else{
 //     document.write("It's PM")
 // }
+
 
 
 // TASK 8 
@@ -333,12 +368,15 @@
 // document.write(rdiff + " days have passed since 1st Ramzan 2015." )
 
 
+
 // TASK 10 
 // var date = new Date("January 1,2015").getTime()
 // var date1 = new Date("December 5, 2015").getTime();
 // var diff = (date1 - date );
 // var diff1 = Math.floor(diff / (1000*60))
 // document.write(diff1 + " days have passed since 1st Ramzan 2015." )
+
+
 
 // TASK 11 
 // var date = new Date();
@@ -350,6 +388,8 @@
 // document.write( "1 hour ago, it was " + hour)
 
 
+
+
 // TASK 12
 // var date = new Date();
 // document.write("Curent Date: " + date + "<br>")
@@ -357,6 +397,8 @@
 // var backYear = new Date();
 // backYear.setFullYear(1920)
 // document.write( "100 Years Back, it was " + backYear)
+
+
 
 
 // TASK 13 
@@ -369,6 +411,8 @@
 // var birthYear = new Date().getFullYear() - age 
 // document.write("Your age is " + age + "<br>");
 // document.write("Yor Birth Year is " + birthYear)
+
+
 
 
 
@@ -405,70 +449,244 @@
 
 
 
-// TASK 1 is pending
+// TASK 1 
+// function date(){
+//     document.write(new Date())
+// };
+// date();
 
 
 
 
-// TASK 2 is pending
+// TASK 2 
+// var firstName = prompt("Enter First Name")
+// var lastName = prompt("Enter Last Name")
+
+// function fullName(a ,  b){
+//     var add = a + " " + b
+//     return add;
+// }
+
+// alert(fullName(firstName, lastName))
 
 
 
 
-// TASK 3 is pending
+
+
+// TASK 3 
+// var num1 = +prompt("Enter First value")
+// var num2 = +prompt("Enter second value")
+
+// function sum(a,b){
+//     var theSum = a+b
+//     return theSum;
+// }
+
+// alert(sum(num1, num2))
 
 
 
 
-// TASK 4 is pending
+// TASK 4 
+// var num1 = +prompt("Enter First value")
+// var num2 = +prompt("Enter second value")
+// var opr = prompt("Enter operater value")
+
+// function calc(num1, opr, num2){
+//     if(opr ==="+"){
+//         return num1 + num2
+//     }else if (opr === "-"){
+//         return num1- num2
+//     }else if (opr === "*"){
+//         return num1 * num2
+//     }else if (opr === "/"){
+//         return num1 / num2
+//     }else {
+//         return "Incorrect Operation"
+//     }
+// }
+
+// document.write(calc(num1, opr, num2));
 
 
 
 
-// TASK 5 is pending
+// TASK 5 
+// var num1 = +prompt("Enter value")
+
+// function sqr(num1 ){
+//     var sqr1 = Math.pow(num1, 2);
+//     return sqr1;
+// }
+// alert(sqr(num1));
 
 
 
 
-// TASK 6 is pending
+// TASK 6 
+// var num1 = +prompt("Enter value")
+
+// function factorialize(num) {
+//     if (num < 0) 
+//           return -1;
+//     else if (num == 0) 
+//         return 1;
+//     else {
+//         return (num * factorialize(num - 1));
+//     }
+//   }  
+// alert(factorialize(num1))
 
 
 
 
-// TASK 7 is pending
+// TASK 7
+// var num1 = +prompt("Enter First Number")
+// var num2 = +prompt("Enter second Number")
+
+// function myFunction(a,b) {
+    
+//    for( var i = a; i <= b ; i++  ){
+//     document.write(i + "<br>" )
+// }
+// }
+// myFunction(num1 ,num2);
+
+// var num1 = +prompt("Enter First Number")
+// var num2 = +prompt("Enter second Number")
+
+// for( var i = num1; i <= num2 ; i++  ){
+//     document.write(i + "<br>" )
+// }
 
 
 
 
-// TASK 8 is pending
+// TASK 8 
+// var base = +prompt("Enter base")
+// var per = +prompt("Enter perpendicular")
+
+// function hypo(b, p ){
+
+//     function sqr(s){
+//         return s*s
+//     }
+
+//     var base1 = sqr(b)
+//     var per1 = sqr(p)
+
+//     var hypo1 = base1 + per1
+//     return Math.sqrt(hypo1)
+// }
+
+// document.write(hypo(base, per))
 
 
 
 
-// TASK 9 is pending
+// TASK 9 
+// var num1 = 4
+// var num2 = 5
+
+// function multiply(a , b){
+//     var c = a * b
+//     return c
+// }
+// console.log(multiply(num1, num2))
+// console.log(multiply(4,5))
 
 
 
 
-// TASK 10 is pending
+// TASK 10 
+// var stri = prompt("Enter A Palindrome Word")
+// function palindrome(str) {
+
+//     var len = str.length;
+//     var mid = Math.floor(len/2);
+
+//     for ( var i = 0; i < mid; i++ ) {
+//         if (str[i] !== str[len - 1 - i]) {
+//             return false + ": it is not a palindrome word";
+//         }
+//     }
+
+//     return true + ": it is a palindrome word";
+// }
+
+// document.write(palindrome(stri))
 
 
 
 
-// TASK 11 is pending
+// TASK 11 
+// stri = prompt("Enter a string")
+
+// function uppercase(str){
+//   var array1 = str.split(' ');
+//   var newarray1 = [];
+    
+//   for(var i = 0; i < array1.length; i++){
+//       newarray1.push(array1[i].charAt(0).toUpperCase()+array1[i].slice(1));
+//   }
+//   return newarray1.join(' ');
+// }
+// console.log(uppercase(stri));
 
 
 
 
-// TASK 12 is pending
+
+
+// TASK 12
+// var stri =prompt("Enter a few words")
+
+// function find_longest_word(str)
+// {
+//   var array1 = str.match(/\w[a-z]{0,}/g);
+//   var result = array1[0];
+
+//   for(var x = 1 ; x < array1.length ; x++)
+//   {
+//     if(result.length < array1[x].length)
+//     {
+//     result = array1[x];
+//     } 
+//   }
+//   return result;
+// }
+// console.log(find_longest_word(stri));
+
+
+
+// TASK 13 
 
 
 
 
-// TASK 13 is pending
 
 
+// TASK 14 
+
+// FOR CIRCUMFERANCE
+// var radius = +prompt("Enter radius")
+
+// function calcCircumference(a){
+//     var b = 2*Math.PI*radius
+//     return "The circumference is " + b
+// }
+
+// document.write(calcCircumference(radius))
 
 
-// TASK 14 is pending
+// FOR AREA
+// var radius = +prompt("Enter radius")
+
+// function calcArea(a){
+//     var b = Math.PI*radius*radius
+//     return "The Area is " + b
+// }
+
+// document.write(calcArea(radius))
 
