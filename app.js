@@ -661,7 +661,13 @@
 
 
 // TASK 13 
+// var str = prompt("Enter string");
+// var word = prompt("Enter word");
 
+// function count(a, l) {
+//     return a.split(l).length - 1;
+// }
+// console.log(count(str, word));
 
 
 
