@@ -52,7 +52,7 @@
 // document.write(" Welcome " + fullName);
 
 
-// TASK 7 id pending
+// TASK 7 
 // var name = "HYDERABAD";
 // document.write("City: " + name + "<br>");
 // var firstLetter = name.replace("HYDER" ,"ISLAM");
@@ -115,12 +115,7 @@
 //         document.write("No Error Found")
 //     )
 //     break;
-    
 // }
-
-
-
-
 
 
 // TASK 14 
@@ -137,9 +132,7 @@
 // }
 
 
-
-
-// TASK 15  is pending
+// TASK 15 
 // var password = prompt("Enter Your Password");
 // var alphabets = "abcdefghijklmnopqrstuvwxyz"; 
 // var numbers = '0123456789';
@@ -296,7 +289,7 @@
 // }
 
 
-// TASK 5 is pending
+// TASK 5 
 // var date = new Date();
 // if (date <= 15){
 //     document.write("First fifteen days of the month ")
@@ -305,7 +298,7 @@
 // }
 
 
-// TASK 6 is pending
+// TASK 6 
 // var date = new Date();
 // document.write("Current Date: " + date + "<br>")
 
@@ -379,7 +372,7 @@
 
 
 
-// TASK 14 is pending
+// TASK 14 
 // var name = prompt("Enter Customer Name");
 // var month = prompt("Enter Month Name");
 // var unit = +prompt("Enter Used Units");
