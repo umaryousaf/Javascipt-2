@@ -149,14 +149,13 @@
 
 // TASK 15 
 // var password = prompt("Enter Your Password");
-// var alphabets = "abcdefghijklmnopqrstuvwxyz"; 
-// var numbers = '0123456789';
-// if (password.length >= 6 && (alphabets !== numbers || alphabets === numbers)){
-//     alert("This is correct Password")
-// }else{
-//     alert("Password can not begin with a number  \n Please enter a Valid Password")
-// }
 
+// var passw=  /^[A-Za-z]\w{6,}$/;  
+// if(password.match(passw)){ 
+// alert("Your Password Is Correct")
+// }else{ 
+// alert("You Don't Enter A Valid Password. Try Again")
+// }
 
 
 // TASK 16
